@@ -1,26 +1,27 @@
 import React from 'react';
 import './App.css';
+import Header from './GlobalElements/Header';
+import Footer from './GlobalElements/Footer';
+import CarouselBanner from './Homepage/CarouselBanner';
+import PopularItems from './Homepage/PopularItems';
+import FullWidthImage from './Homepage/FullWidthImage';
+import FeaturedProducts from './Homepage/FeaturedProducts';
+import BenefitsContent from './Homepage/BenefitsContent';
+
 
 class App extends React.Component {
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+    return (     
+      <div className="container">
+        <Header /> 
+        <CarouselBanner />
+        <PopularItems />
+        <FullWidthImage />
+        <FeaturedProducts />
+        <BenefitsContent />
+        <Footer />
       </div>
     );
   } 
 }
-
 export default App;
