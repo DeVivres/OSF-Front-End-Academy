@@ -12,7 +12,7 @@ import BenefitsContent from './Homepage/BenefitsContent';
 class App extends React.Component {
   render() {
     return (     
-      <div className="container">
+      <div className="container-lg">
         <Header /> 
         <CarouselBanner />
         <PopularItems />
