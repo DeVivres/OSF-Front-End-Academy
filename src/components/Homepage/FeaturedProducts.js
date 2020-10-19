@@ -10,8 +10,8 @@ import fourthImage from '../../img/FeaturedProducts/FeaturedProducts_Image4.png'
 class FeaturedProducts extends Component {
     render() {
         return (
-            <div className="row bg-products">
-                <div className="col-lg">
+            <div className="row bg-products ">
+                <div className="col-lg ">
                     <h5 className="text-center text-white">Featured Products</h5>
                     <p className="text-center text-white">Unde omnis iste natus error sit voluptatem</p>
                 </div>  

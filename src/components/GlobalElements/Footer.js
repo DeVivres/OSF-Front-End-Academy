@@ -20,47 +20,55 @@ class Footer extends Component {
                     <p>+1 (888) 548-4344</p>
                 </div>
                 <div className="col-lg-5">
-                    <h6 className="text-uppercase">Categories</h6>        
-                        <ul className="list-group list-unstyled text-muted">
+                    <h6 className="text-uppercase">Categories</h6>
+                    <div className="row justify-content-between">
+                        <div className="col">
+                        <ul className="list-unstyled text-muted">
                             <li className="mb-2">Alcohol</li>
                             <li className="mb-2">Art</li>
                             <li className="mb-2">Books</li>
                             <li className="mb-2">Drink</li>
                             <li className="mb-2">Elecronics</li>
-                        </ul>
-                        <br></br>
-                        <ul className="list-group list-unstyled text-muted">
-                            <li className="mb-2">Home</li>
-                            <li className="mb-2">Jewelry</li>
-                            <li className="mb-2">Kids and Baby</li>
-                            <li className="mb-2">Men's Fashion</li>
-                            <li className="mb-2">Mobile</li>
-                            <li className="mb-2">Motorcycles</li>
-                            <li className="mb-2">Movies</li>
-                            <li className="mb-2"> Music</li>
-                        </ul>
-                        <br></br>
-                        <ul className="list-group list-unstyled text-muted">
+                            </ul>
+                        </div>
+                        <div className="col">
+                            <ul className="list-unstyled text-muted">
+                                <li className="mb-2">Home</li>
+                                <li className="mb-2">Jewelry</li>
+                                <li className="mb-2">Kids and Baby</li>
+                                <li className="mb-2">Men's Fashion</li>
+                                <li className="mb-2">Mobile</li>
+                                <li className="mb-2">Motorcycles</li>
+                                <li className="mb-2">Movies</li>
+                                <li className="mb-2"> Music</li>
+                            </ul>
+                        </div>
+                        <div className="col">
+                            <ul className="list-unstyled text-muted">
                             <li className="mb-2">Sport</li>
                             <li className="mb-2">Toys</li>  
                             <li className="mb-2">Travel</li>
                             <li className="mb-2">Women's Fashio</li>
-                        </ul>
-                     </div>
-                <div className="col-lg">
+                        </ul> 
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-2">
                     <h6 className="text-uppercase">About</h6> 
-                        <ul className="list-group list-unstyled text-muted">
+                        <ul className="list-unstyled text-muted">
                             <li className="mb-2">About us</li>
                             <li className="mb-2">Delivery</li>
                             <li className="mb-2">Testimonials</li>
                             <li className="mb-2">Contact</li>
                         </ul>
                     </div>
-                <div className="col-lg">
-                    <img className="img-fluid ml-3" src={Facebook_Icon}></img>
-                    <img className="img-fluid ml-3" src={Google_Icon}></img>
-                    <img className="img-fluid ml-3" src={Pinterest_Icon}></img>
-                    <img className="img-fluid ml-3" src={Twitter_Icon}></img>
+                <div className="col-lg-2">
+                    <ul className="list-inline list-unstyled d-flex justify-content-around mx-auto">
+                        <li class="list-inline-item "><a><img className="img-fluid" src={Facebook_Icon}></img></a></li>
+                        <li class="list-inline-item"><a><img className="img-fluid" src={Google_Icon}></img></a></li>
+                        <li class="list-inline-item"><a><img className="img-fluid" src={Pinterest_Icon}></img></a></li>
+                        <li class="list-inline-item"><a><img className="img-fluid" src={Twitter_Icon}></img></a></li>
+                    </ul>                    
                 </div>
             </div>
         );

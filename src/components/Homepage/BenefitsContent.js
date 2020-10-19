@@ -9,12 +9,12 @@ class BenefitsContent extends Component {
     render() {
         return (
             <div className="row bg-benefits">
-                <div className="col-lg">
+                <div className="col-lg ">
                     <div className="row">
-                        <div className="col-lg-3">
+                        <div className="col- align-self-center">
                             <img className="img-fluid photo-size-benefits" src={Focus_Logo}></img>
                         </div>
-                        <div className="col-lg">
+                        <div className="col">
                             <h5 className="text-white text-uppercase">Focus</h5>
                             <p className="text-benefits">Our unwavering focus on superior service delivery and building next generation competencies</p>
                         </div>
@@ -22,10 +22,10 @@ class BenefitsContent extends Component {
                 </div>
                 <div className="col-lg">
                     <div className="row">
-                        <div className="col-lg-3">    
+                        <div className="col- align-self-center">    
                             <img className="img-fluid photo-size-benefits" src={Method_Logo}></img>
                         </div>
-                        <div className="col-lg">
+                        <div className="col">
                             <h5 className="text-white text-uppercase">Method</h5>
                             <p className="text-benefits">A standardized methodology designed to deliver measurable business results and predictable costs</p>
                         </div>
@@ -33,10 +33,10 @@ class BenefitsContent extends Component {
                 </div>
                 <div className="col-lg">
                     <div className="row">
-                        <div className="col-lg-3"> 
+                        <div className="col- align-self-center"> 
                             <img className="img-fluid photo-size-benefits" src={Knowledge_Logo}></img>
                         </div>
-                        <div className="col-lg"> 
+                        <div className="col"> 
                             <h5 className="text-white text-uppercase">Knowledge</h5>
                             <p className="text-benefits">A highly skilled, proactive workforce that reliably improves each client's ROI while mitigating their business risk</p>
                         </div>

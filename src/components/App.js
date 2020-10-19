@@ -11,16 +11,22 @@ import BenefitsContent from './Homepage/BenefitsContent';
 
 class App extends React.Component {
   render() {
-    return (     
-      <div className="container-lg">
+    return (   
+      <html>
+        <div className="container">
         <Header /> 
-        <CarouselBanner />
-        <PopularItems />
-        <FullWidthImage />
-        <FeaturedProducts />
-        <BenefitsContent />
-        <Footer />
+        <body>
+          <CarouselBanner />
+          <PopularItems />
+          <FullWidthImage />
+          <FeaturedProducts />
+          <BenefitsContent /> 
+          <Footer />
+        </body>
+        
       </div>
+      </html>
+      
     );
   } 
 }

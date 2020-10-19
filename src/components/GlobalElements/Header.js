@@ -9,18 +9,15 @@ import Search_Icon from '../../img/Header/Search_Icon.png'
 
 class Header extends Component {
     render() {
-        return (
-            <div className="row-lg">
-                <br></br>
-                
-                <nav class="navbar container nav-fill bg-white border-bottom fixed-top navbar-expand-lg navbar-light width">
+        return (             
+                <nav class="navbar container bg-white border-bottom fixed-top navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#"><img className="img-fluid logo-image" src={OSF_Logo}></img></a>
                     <a class="navbar-brand">OSF<br></br>Academy</a>  
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbar">
+                        <ul class="navbar-nav">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Services
@@ -37,7 +34,6 @@ class Header extends Component {
                                         <a class="dropdown-item" href="#">Flower and Plants</a>
                                         <a class="dropdown-item" href="#">Food</a>
                                     </div>
-                                    
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -49,8 +45,6 @@ class Header extends Component {
                             <li class="nav-item disabled">
                                 <a class="nav-link" href="#">Contact Us</a>
                             </li>
-                        </ul>
-                        <ul class="navbar-nav mx-auto">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     En
@@ -86,7 +80,6 @@ class Header extends Component {
                         </ul>
                     </div>
                 </nav>
-            </div>
         );
     }
 }
