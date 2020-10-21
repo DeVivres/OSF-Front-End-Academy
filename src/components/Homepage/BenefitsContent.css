@@ -5,7 +5,6 @@
 .text-benefits{
     color: #7b7774;
     font-family: Lato;
-    font-size: 14px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
@@ -13,6 +12,4 @@
     text-align: left;
 }
 
-.photo-size-benefits{
-    width: 60px;
-}
+

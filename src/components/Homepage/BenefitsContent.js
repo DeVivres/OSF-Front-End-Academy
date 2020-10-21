@@ -8,11 +8,11 @@ import Knowledge_Logo from '../../img/BenefitsContent/Knowledge_Logo.png'
 class BenefitsContent extends Component {
     render() {
         return (
-            <div className="row bg-benefits">
-                <div className="col-lg ">
+            <div className="row bg-benefits p-5">
+                <div className="col-lg p-4">
                     <div className="row">
                         <div className="col- align-self-center">
-                            <img className="img-fluid photo-size-benefits" src={Focus_Logo}></img>
+                            <img className="img-fluid" src={Focus_Logo}></img>
                         </div>
                         <div className="col">
                             <h5 className="text-white text-uppercase">Focus</h5>
@@ -20,10 +20,10 @@ class BenefitsContent extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg">
+                <div className="col-lg p-4">
                     <div className="row">
                         <div className="col- align-self-center">    
-                            <img className="img-fluid photo-size-benefits" src={Method_Logo}></img>
+                            <img className="img-fluid" src={Method_Logo}></img>
                         </div>
                         <div className="col">
                             <h5 className="text-white text-uppercase">Method</h5>
@@ -31,10 +31,10 @@ class BenefitsContent extends Component {
                         </div>
                     </div>     
                 </div>
-                <div className="col-lg">
+                <div className="col-lg p-4">
                     <div className="row">
                         <div className="col- align-self-center"> 
-                            <img className="img-fluid photo-size-benefits" src={Knowledge_Logo}></img>
+                            <img className="img-fluid" src={Knowledge_Logo}></img>
                         </div>
                         <div className="col"> 
                             <h5 className="text-white text-uppercase">Knowledge</h5>

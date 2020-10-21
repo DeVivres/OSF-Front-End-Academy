@@ -10,13 +10,13 @@ import Facebook_Icon from '../../img/Banner/Facebook_Icon.png'
 class CarouselBanner extends Component {
     render() {
         return (
-            <div className="row">
-                <div className="col-lg-9 flex-wrap">
-                    <div id="carousel" className="carousel slide" data-ride="carousel">        
+            <div className="row pad-from-nav">
+                <div className="col-lg-9 p-0">
+                    <div id="carousel" className="carousel slide p-3" data-ride="carousel">        
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <img src={Carousel_Photo1} className="" alt="Photo"></img>
-                                <div className="carousel-caption text-left ">                            
+                                <div className="carousel-caption text-left">                            
                                     <h2>Control and manage any device with cloud solutions</h2>
                                     <br></br>
                                     <p>Improve business performance and the user experience with right mix of IoT technology and processes</p>
@@ -50,7 +50,7 @@ class CarouselBanner extends Component {
                             </div>
                             <div className="carousel-item">
                                 <img src={Carousel_Photo3} className="" alt="..."></img>
-                                <div className="carousel-caption text-right ">
+                                <div className="carousel-caption text-right">
                                     <h2>Control and manage any device with cloud solutions</h2>
                                     <br></br>
                                     <p>Improve business performance and the user experience with right mix of IoT technology and processes</p>
@@ -68,7 +68,7 @@ class CarouselBanner extends Component {
                         </div>
                     </div>
                 </div>
-                    <div className="col-lg align-self-center text-center d-none d-xl-block d-lg-block">
+                    <div className="col-lg text-center py-3 d-none d-xl-block d-lg-block">
                         <img className="img-fluid" src={Sale_Image}></img>
                         <br></br>
                         <br></br>
