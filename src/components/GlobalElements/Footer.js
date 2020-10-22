@@ -16,8 +16,8 @@ class Footer extends Component {
                     <p> @ Copyright 2019.<br></br>All Rights Reserved.</p>
                     <h6 className="text-uppercase">Contact</h6>
                     <p>Headquarters:<br></br>5600, Blvd. des Galeries, Bur 530 <br></br>Quebec, Quebec G2K 2H6</p>    
-                    <p>contact@osf-global.com</p>
-                    <p>+1 (888) 548-4344</p>
+                    <p><a href="mailto:exampleEmail@gmail.com">contact@osf-global.com</a></p>
+                    <p><a href="tel:+1885484344">+1 (888) 548-4344</a></p>
                 </div>
                 <div className="col-lg d-xl-none d-lg-none">
                     <p> @ Copyright 2019.<br></br>All Rights Reserved.</p>
@@ -28,8 +28,8 @@ class Footer extends Component {
                     <div className="collapse" id="collapseInfo">
                         <div class="">
                             <p>Headquarters:<br></br>5600, Blvd. des Galeries, Bur 530 <br></br>Quebec, Quebec G2K 2H6</p>    
-                            <p>contact@osf-global.com</p>
-                            <p>+1 (888) 548-4344</p>
+                            <p><a href="mailto:exampleEmail@gmail.com">contact@osf-global.com</a></p>
+                            <p><a href="tel:+1885484344">+1 (888) 548-4344</a></p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ class Footer extends Component {
                 </div>
 
                 <div className="col-lg-2">
-                    <ul className="list-inline list-unstyled d-flex justify-content-between mx-auto">
+                    <ul className="list-inline list-unstyled d-flex justify-content-between">
                         <li class="list-inline-item">
                             <a href="https://www.facebook.com" target="_blank">
                                 <img className="img-fluid icon-fading" src={Facebook_Icon}></img>
