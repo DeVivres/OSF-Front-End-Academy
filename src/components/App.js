@@ -1,32 +1,54 @@
 import React from 'react';
 import './App.css';
-import Header from './GlobalElements/Header';
-import Footer from './GlobalElements/Footer';
-import CarouselBanner from './Homepage/CarouselBanner';
-import PopularItems from './Homepage/PopularItems';
-import FullWidthImage from './Homepage/FullWidthImage';
-import FeaturedProducts from './Homepage/FeaturedProducts';
-import BenefitsContent from './Homepage/BenefitsContent';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
+
+import CartPage from '../pages/CategoryLandingPage';
+import CategoryLandingPage from '../pages/CategoryLandingPage';
+import CountDownPage from '../pages/CountdownPage';
+import HomePage from '../pages/HomePage';
+import NotFoundPage from '../pages/NotFoundPage';
+import PrintPage from '../pages/PrintPage';
+import ProductDetailedPage from '../pages/ProductDetailedPage'
 
 
 class App extends React.Component {
   render() {
     return (   
-      <html>
-        <div className="container">
-        <Header /> 
-        <body>
-          <CarouselBanner />
-          <PopularItems />
-          <FullWidthImage />
-          <FeaturedProducts />
-          <BenefitsContent /> 
-          <Footer />
-        </body>
-        
-      </div>
-      </html>
-      
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Redirect to="/homepage"/>
+            </Route>
+            <Route path="/cartpage">
+              <CartPage />
+            </Route>
+            <Route path="/categorylandingpage">
+              <CategoryLandingPage />
+            </Route>
+            <Route path="/countdownpage">
+              <CountDownPage />
+            </Route>
+            <Route path="/homepage">
+              <HomePage />
+            </Route >
+            <Route path="/notfoundpage">
+              <NotFoundPage />
+            </Route>
+            <Route path="/printpage">
+              <PrintPage />
+            </Route>
+            <Route path="/productdetailedpage">
+              <ProductDetailedPage />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     );
   } 
 }

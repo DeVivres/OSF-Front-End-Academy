@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import './Header.css';
+import { Link } from "react-router-dom"
 import OSF_Logo from '../../img/Header/OSF_Logo.png'
 import ShoppingCart_Icon from '../../img/Header/ShoppingCart_Icon.png'
 import Wishlist_Icon from '../../img/Header/Wishlist_Icon.png'
@@ -14,7 +15,9 @@ class Header extends Component {
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img className="logo-image" src={OSF_Logo}></img></a>
+                    <Link to="/homepage">
+                        <a class="navbar-brand"><img className="logo-image" src={OSF_Logo}></img></a>
+                    </Link>
                     <ul class="navbar navbar-nav container bg-nav-mobile d-lg-none d-xl-none border-top d-flex flex-row justify-content-around fixed-bottom">
                             <li class="nav-item">
                                 <a class="nav-link ml-3" href="#"><img className="img-fluid icon-image icon-brightness" src={Search_Icon}></img></a>
