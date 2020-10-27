@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
-import '../App.css';
-import '../Homepage/FullWidthImage.css'
 
 
 class FullWidthImage extends Component {
     render() {
         return (
-            <div className="row banner p-4 align-items-center">
-                <div className="col-lg p-4 m-4 text-center text-white">
-                    <h3>Banner OSF Theme</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantims</p>
+            <div>
+                <div className="row size banner align-items-center d-none d-xl-flex d-lg-flex">
+                    <div className="col-lg text-center text-white">
+                        <h1>Banner OSF Theme</h1>
+                        <p>Sed ut perspiciatis unde omnis iste natus<br></br>error sit voluptatem accusantims</p>
+                    </div>
+                </div>
+                <div className="row banner align-items-center d-lg-none d-xl-none">
+                    <div className="col-lg text-center text-white my-4 py-2">
+                        <h3>Banner OSF Theme</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus<br></br>error sit voluptatem accusantims</p>
+                    </div>
                 </div>
             </div>
         );

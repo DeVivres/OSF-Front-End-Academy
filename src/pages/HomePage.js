@@ -6,6 +6,8 @@ import PopularItems from '../components/Homepage/PopularItems';
 import FullWidthImage from '../components/Homepage/FullWidthImage';
 import FeaturedProducts from '../components/Homepage/FeaturedProducts';
 import BenefitsContent from '../components/Homepage/BenefitsContent';
+import CookiesPolicy from '../components/Non-ProductPages/CookiesPolicy';
+import LogInDialog from '../components/Non-ProductPages/LogInDialog';
 
 class HomePage extends Component {
     render() {
@@ -14,6 +16,9 @@ class HomePage extends Component {
                 <Header /> 
                 <body>
                 <CarouselBanner />
+                <CookiesPolicy />
+                <br></br>
+                <LogInDialog />
                 <PopularItems />
                 <FullWidthImage />
                 <FeaturedProducts />

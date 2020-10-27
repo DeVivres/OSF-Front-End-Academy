@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom"
-import './NotFound.css'
 import lineImage from '../../img/NotFound/Line_Img.png'
 import bgImage from '../../img/NotFound/Exclamation_Mark_Bg.png'
 import textImage from '../../img/NotFound/Oops_Text.png'

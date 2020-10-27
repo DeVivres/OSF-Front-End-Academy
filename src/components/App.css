@@ -1,3 +1,70 @@
-a, a:visited {
-    color: inherit;
+a, a:hover{
+    text-decoration: none;
+    color: initial;
+    outline: none;
+}
+
+.pad-from-bottom-nav{
+    padding-bottom: 3em;
+}
+
+.icon-fading{
+    opacity: 0.5;
+}
+
+
+.bg-benefits {
+    background-color: #45413e;
+}
+
+.text-benefits{
+    color: #7b7774;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.bg-products {
+    background-color: #262a33;
+}
+
+.white-line{
+    width: 250px;
+    height: 2px;
+}
+
+.banner {
+    background-image: url("../img/FullWidthImage/FullWidthImage_Banner_Desktop.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.size{
+    height: 25em;
+    width: 1;
+}
+
+.icon-photo{
+    height: 2em;
+}
+
+.pad-from-nav{
+    padding-top: 6em;
+}
+
+.icon-color{
+    color: #3b5998;
+    font-size: 0.9em;
+}
+
+.border-primary{
+    border-color: #3b5998 !important;
+    border-width: 3px !important;
+}
+
+.bg-items {
+    background-color: #262a33;
 }

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-import '../Homepage/PopularItems.css'
-
 
 class PopularItems extends Component {
     render() {
