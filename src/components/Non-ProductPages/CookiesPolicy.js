@@ -3,13 +3,12 @@ import React, { Component } from 'react';
 class CookiesPolicy extends Component {
     render() { 
         return (
-            <div>
-                <script></script>
+            <div>  
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                 Cookies modal
-                </button>   
+                </button> 
                 <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered p-3" >
+                <div class="modal-dialog modal-xl modal-dialog-centered p-3">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title text-success" id="exampleModalLabel">This website uses cookies</h5>
@@ -23,11 +22,11 @@ class CookiesPolicy extends Component {
                                 <p>
                                     OSF uses its own and third-party cookies for statistical purposes, to know your preferences, for website performance
                                     and interaction with social media offering publicity tailored to your interests. If you continue browsing, we consider that you accept
-                                    its use. You can expand this information consulting our <a className="text-success">Cookies Policy Page</a>.
+                                    its use. You can expand this information consulting our <a className="text-success" href="#">Cookies Policy Page</a>.
                                 </p>
                             </div>
                             <div className="col align-self-end d-flex justify-content-end">
-                                <button type="button" class="btn btn-primary rounded-pill bg-success px-5">Accept</button>
+                                <button type="submit" class="btn btn-primary rounded-pill bg-success px-5">Accept</button>
                             </div>
                         </div>
                     </div>

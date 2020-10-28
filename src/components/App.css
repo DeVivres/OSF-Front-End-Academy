@@ -68,3 +68,10 @@ a, a:hover{
 .bg-items {
     background-color: #262a33;
 }
+
+.dropdown-size{
+    width: 71.5625em;
+    margin-top: 26px;
+    margin-left: -17.6875em;
+    background-color: #262a32
+}
