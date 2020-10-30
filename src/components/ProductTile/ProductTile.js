@@ -8,13 +8,39 @@ class ProductTile extends Component {
             card: {
                 img: Image,
                 text: String,
-                price: Number,
+                price: String,
+                isFullCover: false,
+                isButton: false,
             }
-            
         }
     }
     render() {
-        return (
+        const isCover = this.state.card.isFullCover;
+        const hasButton = this.state.card.isButton;
+        let card;
+        if(isCover) {
+            card = 
+            <div>
+                <div class="card text-center">
+                    <img class="card-img-top" src={this.props.card.img}></img>
+                </div>
+            </div>
+        }
+        else if(hasButton){
+            card = 
+            <div>
+                <div class="card text-center">
+                    <img class="card-img-top" src={this.props.card.img}></img>
+                    <div class="card-body">
+                        <p class="card-text">{this.props.card.text}</p>
+                        <p>{this.props.card.price}</p>
+                        <button>Press here</button>
+                    </div>
+                </div>
+            </div>
+        }
+        else{
+            card = 
             <div>
                 <div class="card text-center">
                     <img class="card-img-top" src={this.props.card.img}></img>
@@ -23,6 +49,12 @@ class ProductTile extends Component {
                         <p>{this.props.card.price}</p>
                     </div>
                 </div>
+            </div>
+        }
+        
+        return (
+            <div>
+                {card}
             </div>
         );
     }

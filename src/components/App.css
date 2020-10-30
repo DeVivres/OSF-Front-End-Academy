@@ -134,3 +134,11 @@ a, a:hover{
     border-color: #f1edea !important; 
     border-width: 3px !important;
 }
+
+.card-fix{
+    height: 22em;
+}
+
+.bg-card {
+    background-color: red;
+}
