@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-import './Header.css';
 import { Link } from "react-router-dom"
 import OSF_Logo from '../../img/Header/OSF_Logo.png'
 import MobilePhoto from '../../img/Header/Mobile_Photo_BurgerMeny.png'
@@ -17,7 +16,7 @@ class Header extends Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <Link to="/homepage">
+                <Link to="/homepage" className="">
                     <a className="navbar-brand"><img className="logo-image" src={OSF_Logo}></img></a>
                 </Link>
 
@@ -129,18 +128,18 @@ class Header extends Component {
                             <a className="academy-text">Academy</a>
                         </a>  
                         <ul className="navbar-nav">
-                            <li className="nav-item dropdown ">
+                            <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle text-dark text-uppercase" data-offset="100,20" 
                                 id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Services
                                 </a>
                                 <div class="dropdown-menu dropdown-size border-0" aria-labelledby="navbarDropdown">
                                     <div className="row d-flex m-3">
-                                        <div className="col-lg-6 text-white">
-                                            <h5>Product Categories</h5>
+                                        <div className="col-lg-6">
+                                            <h5 className="mb-4 text-white">Product Categories</h5>
                                             <div className="row">
                                                 <div className="col">
-                                                    <ul className="list-unstyled text-white">
+                                                    <ul className="list-unstyled">
                                                         <li className="mb-2"><Link to="/notfoundpage" className="text-white">Accessories</Link></li>
                                                         <li className="mb-2"><Link to="/notfoundpage" className="text-white">Alcohol</Link></li>
                                                         <li className="mb-2"><Link to="/notfoundpage" className="text-white">Art</Link></li>
@@ -177,8 +176,8 @@ class Header extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col">
-                                            <h5 className="text-white">Sale</h5>
+                                        <div className="col-lg">
+                                            <h5 className="mb-4 text-white">Sale</h5>
                                             <div className="row">
                                                 <div className="col">
                                                     <ul className="list-unstyled">

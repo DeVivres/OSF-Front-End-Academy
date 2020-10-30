@@ -5,9 +5,6 @@ import Google_Icon from '../../img/Social/Google_Icon.png'
 import Pinterest_Icon from '../../img/Social/Pinterest_Icon.png'
 import Twitter_Icon from '../../img/Social/Twitter_Icon.png'
 
-
-
-
 class Footer extends Component {
     render() {
         return (

@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 
 class CookiesPolicy extends Component {
     render() { 
+        
         return (
             <div>  
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Cookies modal
-                </button> 
                 <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl modal-dialog-centered p-3">
                     <div class="modal-content">

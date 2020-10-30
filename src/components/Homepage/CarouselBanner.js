@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from "react-router-dom"
 import Carousel_Photo1 from '../../img/Banner/Carousel_Photo1.png'
 import Carousel_Photo2 from '../../img/Banner/Carousel_Photo2.png'
 import Carousel_Photo3 from '../../img/Banner/Carousel_Photo3.png'
@@ -18,7 +19,7 @@ class CarouselBanner extends Component {
                                     <h2>Control and manage any device with cloud solutions</h2>
                                     <p>Improve business performance and the user experience with right mix of IoT technology and processes</p>
                                     <br></br>
-                                    <a className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp;</a>
+                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp;</Link>
                                     <br></br>
                                     <br></br>
                                     <ol className="carousel-indicators">
@@ -34,7 +35,7 @@ class CarouselBanner extends Component {
                                     <h2>Control and manage any device with cloud solutions</h2>
                                     <p>Improve business performance and the user experience with right mix of IoT technology and processes</p>
                                     <br></br>
-                                    <a className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp;</a>
+                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp;</Link>
                                     <br></br>
                                     <br></br>
                                     <ol className="carousel-indicators">
@@ -50,7 +51,7 @@ class CarouselBanner extends Component {
                                     <h2>Control and manage any device with cloud solutions</h2>
                                     <p>Improve business performance and the user experience with right mix of IoT technology and processes</p>
                                     <br></br>
-                                    <a className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp; </a>
+                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp; </Link>
                                     <br></br>
                                     <br></br>
                                     <ol className="carousel-indicators">

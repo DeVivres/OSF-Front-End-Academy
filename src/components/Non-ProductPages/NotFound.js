@@ -13,18 +13,18 @@ class NotFound extends Component {
                     <div className="col">
                         <nav aria-label="breadcrumb" className="mb-n4">
                             <ol class="breadcrumb bg-color-not-found justify-content-center align-items-center">
-                                <li className="breadcrumb-item"><a className="text-success">Home</a></li>
+                                <li className="breadcrumb-item"><Link  to="/homepage" className="text-success">Home</Link></li>
                                 <li class="breadcrumb-item active" aria-current="page">404</li>
                             </ol>
                         </nav>
                     </div>
                     <div className="col d-flex justify-content-center align-items-center p-3">
-                        <img className="img-fluid w-50" src={lineImage}></img>
+                        <img className="w-50" src={lineImage}></img>
                         <h1 className="mx-3">404</h1>
-                        <img className="img-fluid w-50" src={lineImage}></img>
+                        <img className="w-50" src={lineImage}></img>
                     </div>
                 </div>
-                <div className="col bg-white d-lg-flex d-xl-flex p-3">
+                <div className="col bg-white d-lg-flex d-xl-flex p-3 p-lg-5">
                     <div className="col d-flex justify-content-center">
                         <img className="img-fluid position-relative bg-icon-fix" src={bgImage}></img>
                         <img className="img-fluid position-absolute align-self-center" src={textImage}></img>
@@ -38,7 +38,7 @@ class NotFound extends Component {
                         <br></br>
                         <h4 className="mb-3">Search our site</h4>
                         <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2 border rounded-pill w-100" type="search" placeholder="Search" aria-label="Search"></input>
+                        <input class="form-control mr-sm-2 border rounded-pill w-100 border-color-bg" type="search" placeholder="Search" aria-label="Search"></input>
                         </form>
                     </div>
                 </div>

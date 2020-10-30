@@ -75,3 +75,62 @@ a, a:hover{
     margin-left: -17.6875em;
     background-color: #262a32
 }
+
+.logo-image{
+    width: 63px;
+    height: 65px;
+}
+
+.icon-image{
+    width: 23px;
+    height: 23px;
+}
+
+.osf-text{
+    width: 73px;
+    height: 25px;
+    color: #011847;
+    font-family: "Lato - Extra Bold";
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 6.33px;
+
+}
+
+.academy-text{
+    width: 74px;
+    height: 17px;
+    color: #84bc22;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.small-fix{
+    line-height: 0.9em;
+}
+
+.navbar-brand{
+    margin-right: 0;
+}
+
+.bg-nav-mobile{
+    background-color: #262a33;
+}
+
+.icon-brightness{
+    filter: brightness(5);
+}
+
+.bg-color-not-found{
+    background-color: #f1edea;
+}
+
+.bg-icon-fix{
+    margin-left: -17em;
+} 
+
+.border-color-bg{
+    border-color: #f1edea !important; 
+    border-width: 3px !important;
+}
