@@ -19,9 +19,9 @@ class NotFound extends Component {
                         </nav>
                     </div>
                     <div className="col d-flex justify-content-center align-items-center p-3">
-                        <img className="w-50" src={lineImage}></img>
+                        <img className="w-25" src={lineImage}></img>
                         <h1 className="mx-3">404</h1>
-                        <img className="w-50" src={lineImage}></img>
+                        <img className="w-25" src={lineImage}></img>
                     </div>
                 </div>
                 <div className="col bg-white d-lg-flex d-xl-flex p-3 p-lg-5">

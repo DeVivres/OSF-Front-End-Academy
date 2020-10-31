@@ -17,22 +17,32 @@ class Header extends Component {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <Link to="/homepage" className="">
-                    <a className="navbar-brand"><img className="logo-image" src={OSF_Logo}></img></a>
+                    <a className="navbar-brand">
+                        <img className="logo-image" src={OSF_Logo}></img>
+                    </a>
                 </Link>
 
                 {/* Bottom fixed icons for Xs, Sm, Md screens */}
                 <ul className="navbar navbar-nav container bg-nav-mobile d-lg-none d-xl-none border-top d-flex flex-row justify-content-around fixed-bottom">
                     <li className="nav-item">
-                        <a className="nav-link ml-3" href="#"><img className="img-fluid icon-image icon-brightness" src={Search_Icon}></img></a>
+                        <a className="nav-link ml-3">
+                            <img className="img-fluid icon-image icon-brightness" src={Search_Icon}></img>
+                        </a>
                     </li> 
                     <li className="nav-item">
-                        <a className="nav-link ml-3" href="#" data-toggle="modal" data-target="#modalLoginForm"><img className="img-fluid icon-image icon-brightness" src={Profile_Icon}></img></a>
+                        <a className="nav-link ml-3" data-toggle="modal" data-target="#modalLoginForm">
+                            <img className="img-fluid icon-image icon-brightness" src={Profile_Icon}></img>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link ml-3" href="#"><img className="img-fluid icon-image icon-brightness" src={Wishlist_Icon}></img></a>
+                        <a className="nav-link ml-3">
+                            <img className="img-fluid icon-image icon-brightness" src={Wishlist_Icon}></img>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link ml-3" href="#"><img className="img-fluid icon-image icon-brightness" src={ShoppingCart_Icon}></img></a>
+                        <a className="nav-link ml-3">
+                            <img className="img-fluid icon-image icon-brightness" src={ShoppingCart_Icon}></img>
+                        </a>
                     </li>
                 </ul>
                 
@@ -53,14 +63,30 @@ class Header extends Component {
                                     </a>
                                     <div className="collapse" id="collapseProduct">
                                         <ul className="list-unstyled ml-3">
-                                            <li className="mb-2"><Link to="/notfoundpage">Home</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Jewelry</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Kids and Baby</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Men's Fashion</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Mobile</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Motorcycles</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Movies</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Music</Link></li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Home</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Jewelry</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Kids and Baby</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Men's Fashion</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Mobile</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Motorcycles</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Movies</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Music</Link>
+                                            </li>
                                         </ul> 
                                     </div>
                                     <a className="nav-link d-flex justify-content-between" data-toggle="collapse" href="#collapseSales" role="button" aria-expanded="false" aria-controls="collapseCompany">
@@ -69,14 +95,30 @@ class Header extends Component {
                                     </a>
                                     <div className="collapse" id="collapseSales">
                                         <ul className="list-unstyled ml-3">
-                                            <li className="mb-2"><Link to="/notfoundpage">Accessories</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Alcohol</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Art</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Books</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Drink</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Electronics</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Flower & Plants</Link></li>
-                                            <li className="mb-2"><Link to="/notfoundpage">Food</Link></li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Accessories</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Alcohol</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Art</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Books</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Drink</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Electronics</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Flower & Plants</Link>
+                                            </li>
+                                            <li className="mb-2">
+                                                <Link to="/notfoundpage">Food</Link>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -129,9 +171,8 @@ class Header extends Component {
                         </a>  
                         <ul className="navbar-nav">
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle text-dark text-uppercase" data-offset="100,20" 
-                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Services
+                                <a className="nav-link dropdown-toggle text-dark text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Services
                                 </a>
                                 <div class="dropdown-menu dropdown-size border-0" aria-labelledby="navbarDropdown">
                                     <div className="row d-flex m-3">
@@ -140,38 +181,86 @@ class Header extends Component {
                                             <div className="row">
                                                 <div className="col">
                                                     <ul className="list-unstyled">
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Accessories</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Alcohol</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Art</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Books</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Drink</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Electronics</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Flower & Plants</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Food</Link></li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Accessories</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Alcohol</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Art</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Books</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Drink</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Electronics</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Flower & Plants</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Food</Link>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                                 <div className="col">
                                                     <ul className="list-unstyled">
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Gadgets</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Garden</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Grocery</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Home</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Jewelry</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Kids & Baby</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Men's Fashion</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Mobile</Link></li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Gadgets</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Garden</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Grocery</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Home</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Jewelry</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Kids & Baby</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Men's Fashion</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Mobile</Link>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                                 <div className="col">
                                                     <ul className="list-unstyled">
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Motorcycles</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Movies</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Music</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Office</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Pets</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Romantic</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Sport</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Toys</Link></li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Motorcycles</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Movies</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Music</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Office</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Pets</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Romantic</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Sport</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Toys</Link>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -181,14 +270,30 @@ class Header extends Component {
                                             <div className="row">
                                                 <div className="col">
                                                     <ul className="list-unstyled">
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Accessories</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Alcohol</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Art</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Books</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Drink</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Electronics</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Flower & Plants</Link></li>
-                                                        <li className="mb-2"><Link to="/notfoundpage" className="text-white">Food</Link></li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Accessories</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Alcohol</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Art</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Books</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Drink</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Electronics</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Flower & Plants</Link>
+                                                        </li>
+                                                        <li className="mb-2">
+                                                            <Link to="/notfoundpage" className="text-white">Food</Link>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -200,37 +305,53 @@ class Header extends Component {
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark text-uppercase" href="#">Company</a>
+                                <a className="nav-link text-dark text-uppercase">Company</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-dark text-uppercase" href="#">Library</a>
+                                <a className="nav-link text-dark text-uppercase">Library</a>
                             </li>
                             <li className="nav-item disabled">
-                                <a className="nav-link text-dark text-uppercase" href="#">Contact Us</a>
+                                <a className="nav-link text-dark text-uppercase">Contact Us</a>
                             </li>
                             <li className="nav-item dropdown ml-4">
-                                <a className="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     En
                                 </a>
+                                <div class="dropdown-menu small-dropdown-size" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item text-white">Ua</a>
+                                    <a class="dropdown-item text-white">De</a>
+                                </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     $Us
                                 </a>
+                                <div class="dropdown-menu small-dropdown-size" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item text-white">£Gbp</a>
+                                    <a class="dropdown-item text-white">₴Uah</a>
+                                </div>
                             </li>
                         </ul>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link ml-3" href="#"><img className="img-fluid icon-image" src={Search_Icon}></img></a>
+                                <a className="nav-link ml-3">
+                                    <img className="img-fluid icon-image" src={Search_Icon}></img>
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link ml-3" href="#" data-toggle="modal" data-target="#modalLoginForm"><img className="img-fluid icon-image" src={Profile_Icon}></img></a>
+                                <a className="nav-link ml-3" data-toggle="modal" data-target="#modalLoginForm">
+                                    <img className="img-fluid icon-image" src={Profile_Icon}></img>
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link ml-3" href="#"><img className="img-fluid icon-image" src={Wishlist_Icon}></img></a>
+                                <a className="nav-link ml-3">
+                                    <img className="img-fluid icon-image" src={Wishlist_Icon}></img>
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link ml-3" href="#"><img className="img-fluid icon-image" src={ShoppingCart_Icon}></img></a>
+                                <a className="nav-link ml-3">
+                                    <img className="img-fluid icon-image" src={ShoppingCart_Icon}></img>
+                                </a>
                             </li>
                         </ul>
                     </div>

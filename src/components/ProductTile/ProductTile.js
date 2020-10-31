@@ -9,8 +9,8 @@ class ProductTile extends Component {
                 img: Image,
                 text: String,
                 price: String,
-                isFullCover: false,
-                isButton: false,
+                isFullCover: Boolean,
+                isButton: Boolean,
             }
         }
     }
@@ -18,7 +18,7 @@ class ProductTile extends Component {
         const isCover = this.state.card.isFullCover;
         const hasButton = this.state.card.isButton;
         let card;
-        if(isCover) {
+        if(isCover == true) {
             card = 
             <div>
                 <div class="card text-center">
@@ -26,7 +26,7 @@ class ProductTile extends Component {
                 </div>
             </div>
         }
-        else if(hasButton){
+        else if(hasButton == true){
             card = 
             <div>
                 <div class="card text-center">

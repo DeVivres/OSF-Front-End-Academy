@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
 class CookiesPolicy extends Component {
-    render() { 
-        
+    se5
+    render() {    
+
         return (
             <div>  
                 <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

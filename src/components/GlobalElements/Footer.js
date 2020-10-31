@@ -21,7 +21,7 @@ class Footer extends Component {
                 {/* Second section*/}
                 <div className="col-5 d-none d-xl-block d-lg-block p-3">
                     <h6 className="text-uppercase mb-4">Categories</h6>
-                    <div className="row text-muted">
+                    <div className="row">
                         <div className="col">
                             <ul className="list-unstyled">
                                 <li className="mb-2"><Link to="/notfoundpage">Alcohol</Link></li>
@@ -56,7 +56,7 @@ class Footer extends Component {
                 {/* Third section*/}
                 <div className="col-2 d-none d-xl-block d-lg-block p-3">
                     <h6 className="text-uppercase mb-4">About</h6> 
-                    <ul className="list-unstyled text-muted">
+                    <ul className="list-unstyled">
                         <li className="mb-2"><Link to="/notfoundpage">About us</Link></li>
                         <li className="mb-2"><Link to="/notfoundpage">Delivery</Link></li>
                         <li className="mb-2"><Link to="/notfoundpage">Testimonials</Link></li>
@@ -67,7 +67,7 @@ class Footer extends Component {
                 {/* Es Sm Md layout - first three section*/}
                 {/* First section*/}
                 <div className="col-lg d-xl-none d-lg-none">
-                    <p> @ Copyright 2019.<br></br>All Rights Reserved.</p>
+                    <p>@ Copyright 2019.<br></br>All Rights Reserved.</p>
                     <a className="d-flex justify-content-between text-dark" data-toggle="collapse" href="#collapseInfo" role="button" aria-expanded="false" aria-controls="collapseInfo">
                         <h6 className="text-uppercase">Contact</h6>
                         <a className="dropdown-toggle"></a>
@@ -120,7 +120,7 @@ class Footer extends Component {
                         <h6 className="text-uppercase">About</h6>
                         <a className="dropdown-toggle"></a>
                     </a>
-                    <div className="collapse text-muted" id="collapseAbout">
+                    <div className="collapse" id="collapseAbout">
                         <div>
                             <ul className="list-unstyled">
                                 <li className="mb-2"><Link to="/notfoundpage">About us</Link></li>
