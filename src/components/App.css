@@ -1,63 +1,29 @@
-a, a:hover{
-    text-decoration: none;
-    color: initial;
-    outline: none;
+/* General rules*/
+.pad-from-nav{
+    padding-top: 6em;
 }
 
 .pad-from-bottom-nav{
     padding-bottom: 3em;
 }
 
-.icon-fading{
-    opacity: 0.5;
+a, a:hover{
+    text-decoration: none;
+    color: initial;
+    outline: none;
 }
 
-
-.bg-benefits {
-    background-color: #45413e;
+/* Header component*/
+.navbar-brand{
+    margin-right: 0;
 }
 
-.text-benefits{
-    color: #7b7774;
-    font-family: Lato;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-}
-
-.bg-products {
+.bg-nav-mobile{
     background-color: #262a33;
 }
 
-.white-line{
-    width: 250px;
-    height: 2px;
-}
-
-.banner {
-    background-image: url("../img/FullWidthImage/FullWidthImage_Banner_Desktop.png");
-    background-position: center;
-    background-size: cover;
-}
-
-.size{
-    height: 25em;
-    width: 1;
-}
-
-.icon-photo{
-    height: 2em;
-}
-
-.pad-from-nav{
-    padding-top: 6em;
-}
-
-.icon-color{
-    color: #3b5998;
-    font-size: 0.9em;
+.icon-brightness{
+    filter: brightness(5);
 }
 
 .border-primary{
@@ -65,21 +31,9 @@ a, a:hover{
     border-width: 3px !important;
 }
 
-.bg-items {
-    background-color: #262a33;
+.small-fix{
+    line-height: 0.9em;
 }
-
-.dropdown-size{
-    width: 71.5625em;
-    margin-top: 26px;
-    margin-left: -17.6875em;
-    background-color: #262a32
-}
-
-.small-dropdown-size{
-    background-color: #262a32
-}
-
 .logo-image{
     width: 63px;
     height: 65px;
@@ -110,22 +64,50 @@ a, a:hover{
     font-weight: 400;
 }
 
-.small-fix{
-    line-height: 0.9em;
+.icon-fading{
+    opacity: 0.5;
 }
 
-.navbar-brand{
-    margin-right: 0;
+.dropdown-size{
+    width: 71.5625em;
+    margin-top: 26px;
+    margin-left: -17.6875em;
+    background-color: #262a32
 }
 
-.bg-nav-mobile{
-    background-color: #262a33;
+.small-dropdown-size{
+    background-color: #262a32
 }
 
-.icon-brightness{
-    filter: brightness(5);
+/* BenefitsContent component */
+.bg-benefits {
+    background-color: #45413e;
 }
 
+.text-benefits{
+    color: #7b7774;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+/* Banner Component */
+.banner {
+    background-image: url("../img/FullWidthImage/FullWidthImage_Banner_Desktop.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/* ProductTile component */
+
+.card-fix{
+    height: 22em;
+}
+
+/* NotFound component */
 .bg-color-not-found{
     background-color: #f1edea;
 }
@@ -139,10 +121,46 @@ a, a:hover{
     border-width: 3px !important;
 }
 
-.card-fix{
-    height: 22em;
+/* PopularItems component */
+.bg-items {
+    background-color: #262a33;
 }
 
-.bg-card {
-    background-color: red;
+/* CarouseBanner component */
+.icon-color{
+    color: #3b5998;
+    font-size: 0.9em;
 }
+
+.icon-photo{
+    height: 2em;
+}
+
+/* FeaturedProducts component */
+.white-line{
+    width: 250px;
+    height: 2px;
+}
+
+.bg-products {
+    background-color: #262a33;
+}
+
+.size{
+    height: 25em;
+    width: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

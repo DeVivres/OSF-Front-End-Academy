@@ -8,8 +8,7 @@ import FeaturedProducts from '../components/Homepage/FeaturedProducts';
 class CategoryLandingPage extends Component {
     render() {
         return (
-            <div>
-                <div className="container">
+            <div className="container">
                 <Header /> 
                 <LogInDialog />
                 <body>
@@ -17,7 +16,6 @@ class CategoryLandingPage extends Component {
                 <FeaturedProducts />
                 <Footer />
                 </body>
-            </div>
             </div>
         );
     }

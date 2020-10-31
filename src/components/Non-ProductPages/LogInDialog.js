@@ -18,14 +18,16 @@ class LogInDialog extends Component {
                                     </input>
                                 </div>
                                 <div class="md-form p-3 mx-3">
-                                        <label data-error="wrong" className="d-flex justify-content-between" data-success="right" for="defaultForm-pass">
+                                    <label data-error="wrong" className="d-flex justify-content-between" data-success="right" for="defaultForm-pass">
                                         <a>Password</a>
                                         <a className="text-success">forgot password</a>
-                                        </label>
-                                        <input type="password" pattern="(?=.*\d)(?=.*[#$^+=!*()@&%])(?=.*[0-9])(?=.*[A-Z])(?=.*[a-zA-Z0-9]).{6,}" id="defaultForm-pass" class="form-control validate rounded-pill" required></input>
-                                    </div>
+                                    </label>
+                                    <input type="password" pattern="(?=.*\d)(?=.*[#$^+=!*()@&%])(?=.*[0-9])(?=.*[A-Z])(?=.*[a-zA-Z0-9]).{6,}" id="defaultForm-pass" class="form-control validate rounded-pill" required></input>
+                                </div>
                                 <div class="d-flex justify-content-center mt-4 mb-3">
-                                    <button type="submit" class="btn rounded-pill bg-success text-uppercase text-white px-4 mx-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                    <button type="submit" class="btn rounded-pill bg-success text-uppercase text-white px-4 mx-4">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </button>
                                 </div>
                                 </form>
                                 <p className="text-success d-flex justify-content-center">I do not have an account</p>

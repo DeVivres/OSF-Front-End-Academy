@@ -317,19 +317,11 @@ class Header extends Component {
                                 <a className="nav-link dropdown-toggle text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     En
                                 </a>
-                                <div class="dropdown-menu small-dropdown-size" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-white">Ua</a>
-                                    <a class="dropdown-item text-white">De</a>
-                                </div>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     $Us
                                 </a>
-                                <div class="dropdown-menu small-dropdown-size" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-white">£Gbp</a>
-                                    <a class="dropdown-item text-white">₴Uah</a>
-                                </div>
                             </li>
                         </ul>
                         <ul className="navbar-nav">

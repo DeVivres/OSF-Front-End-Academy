@@ -73,7 +73,6 @@ class FeaturedProducts extends Component {
                                     </div>
                                 </div>
                             </div>
-
                             <div className="carousel-item p-3">
                                 <div className="row">
                                     <div className="col">
