@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be7ab324a72ae9be4b12a444ba8386d7",
+    "revision": "e1d0f9c2d3c1bc5d1b21cc801879e79a",
     "url": "/OSF-Front-End-Academy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/OSF-Front-End-Academy/static/css/2.6414bb7b.chunk.css"
   },
   {
-    "revision": "e7afff6691d57beeb829",
+    "revision": "ca0703a1337ecd1be4af",
     "url": "/OSF-Front-End-Academy/static/css/main.610f5ed3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/OSF-Front-End-Academy/static/js/2.fbaadf4b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e7afff6691d57beeb829",
-    "url": "/OSF-Front-End-Academy/static/js/main.57016c54.chunk.js"
+    "revision": "ca0703a1337ecd1be4af",
+    "url": "/OSF-Front-End-Academy/static/js/main.2ed17e83.chunk.js"
   },
   {
     "revision": "c7596df4352fea058a5a",

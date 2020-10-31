@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/OSF-Front-End-Academy/static/css/main.610f5ed3.chunk.css",
-    "main.js": "/OSF-Front-End-Academy/static/js/main.57016c54.chunk.js",
-    "main.js.map": "/OSF-Front-End-Academy/static/js/main.57016c54.chunk.js.map",
+    "main.js": "/OSF-Front-End-Academy/static/js/main.2ed17e83.chunk.js",
+    "main.js.map": "/OSF-Front-End-Academy/static/js/main.2ed17e83.chunk.js.map",
     "runtime-main.js": "/OSF-Front-End-Academy/static/js/runtime-main.7cdf3c19.js",
     "runtime-main.js.map": "/OSF-Front-End-Academy/static/js/runtime-main.7cdf3c19.js.map",
     "static/css/2.6414bb7b.chunk.css": "/OSF-Front-End-Academy/static/css/2.6414bb7b.chunk.css",
     "static/js/2.fbaadf4b.chunk.js": "/OSF-Front-End-Academy/static/js/2.fbaadf4b.chunk.js",
     "static/js/2.fbaadf4b.chunk.js.map": "/OSF-Front-End-Academy/static/js/2.fbaadf4b.chunk.js.map",
     "index.html": "/OSF-Front-End-Academy/index.html",
-    "precache-manifest.79722e6483fa4a07e0e19c9a3e3a8eb0.js": "/OSF-Front-End-Academy/precache-manifest.79722e6483fa4a07e0e19c9a3e3a8eb0.js",
+    "precache-manifest.13095a9a04fc60bdc1e3ae369dd406ed.js": "/OSF-Front-End-Academy/precache-manifest.13095a9a04fc60bdc1e3ae369dd406ed.js",
     "service-worker.js": "/OSF-Front-End-Academy/service-worker.js",
     "static/css/2.6414bb7b.chunk.css.map": "/OSF-Front-End-Academy/static/css/2.6414bb7b.chunk.css.map",
     "static/css/main.610f5ed3.chunk.css.map": "/OSF-Front-End-Academy/static/css/main.610f5ed3.chunk.css.map",
@@ -39,6 +39,6 @@
     "static/css/2.6414bb7b.chunk.css",
     "static/js/2.fbaadf4b.chunk.js",
     "static/css/main.610f5ed3.chunk.css",
-    "static/js/main.57016c54.chunk.js"
+    "static/js/main.2ed17e83.chunk.js"
   ]
 }
