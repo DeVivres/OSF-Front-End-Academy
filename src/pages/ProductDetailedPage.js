@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Footer from '../components/GlobalElements/Footer';
-import Header from '../components/GlobalElements/Header';
+import Footer from '../components/Global/Footer';
+import Header from '../components/Global/Header';
 import BenefitsContent from '../components/Homepage/BenefitsContent';
-import LogInDialog from '../components/Non-ProductPages/LogInDialog';
-import ProductImage from '../components/ProductDetailedPage/ProductImage';
-import ProductTile from '../components/ProductTile/ProductTile';
+import LogInDialog from '../components/Non-Product/LogInDialog';
 
 class ProductDetailedPage extends Component {
     render() {

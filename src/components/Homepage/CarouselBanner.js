@@ -12,21 +12,18 @@ class CarouselBanner extends Component {
             <div className="row pad-from-nav px-3 pb-3">
                 <div className="col-lg-9 p-3">
                     <div id="carousel" className="carousel slide" data-ride="carousel">        
+                        <ol className="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" className="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                        </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <img src={Carousel_Photo1} alt="Items image"></img>
                                 <div className="carousel-caption text-left">                            
                                     <h2>Control and manage any device with cloud solutions</h2>
                                     <p>Improve business performance and the user experience with right mix of IoT technology and processes</p>
-                                    <br></br>
-                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp;</Link>
-                                    <br></br>
-                                    <br></br>
-                                    <ol className="carousel-indicators">
-                                        <li data-target="#carousel" data-slide-to="0" className="active"></li>
-                                        <li data-target="#carousel" data-slide-to="1"></li>
-                                        <li data-target="#carousel" data-slide-to="2"></li>
-                                    </ol>
+                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white mb-2 px-4">View More</Link>
                                 </div>
                             </div>
                             <div className="carousel-item">
@@ -34,15 +31,7 @@ class CarouselBanner extends Component {
                                 <div className="carousel-caption text-center">
                                     <h2>Control and manage any device with cloud solutions</h2>
                                     <p>Improve business performance and the user experience with right mix of IoT technology and processes</p>
-                                    <br></br>
-                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp;</Link>
-                                    <br></br>
-                                    <br></br>
-                                    <ol className="carousel-indicators">
-                                        <li data-target="#carousel" data-slide-to="0"></li>
-                                        <li data-target="#carousel" data-slide-to="1" className="active"></li>
-                                        <li data-target="#carousel" data-slide-to="2"></li>
-                                    </ol>
+                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white mb-2 px-4">View More</Link>
                                 </div>
                             </div>
                             <div className="carousel-item">
@@ -50,15 +39,7 @@ class CarouselBanner extends Component {
                                 <div className="carousel-caption text-right">
                                     <h2>Control and manage any device with cloud solutions</h2>
                                     <p>Improve business performance and the user experience with right mix of IoT technology and processes</p>
-                                    <br></br>
-                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white"> &nbsp; View More &nbsp; </Link>
-                                    <br></br>
-                                    <br></br>
-                                    <ol className="carousel-indicators">
-                                        <li data-target="#carousel" data-slide-to="0"></li>
-                                        <li data-target="#carousel" data-slide-to="1"></li>
-                                        <li data-target="#carousel" data-slide-to="2" className="active"></li>
-                                    </ol>
+                                    <Link to="/categorylandingpage" className="btn border border-white rounded-pill text-white mb-2 px-4">View More</Link>
                                 </div>
                             </div>
                         </div>

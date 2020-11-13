@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from '../components/GlobalElements/Header';
-import Footer from '../components/GlobalElements/Footer';
-import LogInDialog from '../components/Non-ProductPages/LogInDialog';
-import CategoryLanding from '../components/LandingPage/CategoryLanding';
+import Header from '../components/Global/Header';
+import Footer from '../components/Global/Footer';
+import LogInDialog from '../components/Non-Product/LogInDialog';
+import CategoryLanding from '../components/Landing/CategoryLanding';
 import FeaturedProducts from '../components/Homepage/FeaturedProducts';
 
 class CategoryLandingPage extends Component {

@@ -18,6 +18,7 @@ import ProductDetailedPage from '../pages/ProductDetailedPage'
 
 class App extends React.Component {
   render() {
+    
     return (   
       <Router>
         <div>

@@ -9,7 +9,7 @@ import fifthImage from '../../img/PopularItems/PopularItems_Image5.png'
 import sixthImage from '../../img/PopularItems/PopularItems_Image6.png'
 import seventhImage from '../../img/PopularItems/PopularItems_Image7.png'
 import eighthImage from '../../img/PopularItems/PopularItems_Image8.png'
-import ProductTile from '../ProductTile/ProductTile';
+import ProductHover from '../ProductTiles/ProductHover';
 
 
 class CategoryLanding extends Component {
@@ -85,57 +85,59 @@ class CategoryLanding extends Component {
                 <div className="col p-0">
                     <div className="row">
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:firstImage, text:"Kristina Dam Oak Table With White Marble Top", price:"$799.55"}}/>
+                            <ProductHover card={{img:firstImage, text:"Kristina Dam Oak Table With White Marble Top", price:"$799.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:secondImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55",}}/>
+                            <ProductHover card={{img:secondImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55",}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:thirdImage, text:"Activate Facial Mask and Charcoal Soap", price:"$129.55"}}/>
+                            <ProductHover card={{img:thirdImage, text:"Activate Facial Mask and Charcoal Soap", price:"$129.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:fourthImage, text:"Cocktail Table Walnut | Yes Or Not", price:"$299.99"}}/>
+                            <ProductHover card={{img:fourthImage, text:"Cocktail Table Walnut | Yes Or Not", price:"$299.99"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:fifthImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
+                            <ProductHover card={{img:fifthImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:sixthImage, text:"Tory Desk Calendar | Sure to Buy", price:"$410.99"}}/>
+                            <ProductHover card={{img:sixthImage, text:"Tory Desk Calendar | Sure to Buy", price:"$410.99"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:seventhImage, text:"Ch445 Wing Chair on Suite Ny", price:"$330.55"}}/>
+                            <ProductHover card={{img:seventhImage, text:"Ch445 Wing Chair on Suite Ny", price:"$330.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile className="bg-card"card={{img:fifthImage, text:"Activate Facial Mask and Charcoal Soap", price:"$129.55"}}/>
+                            <ProductHover className="bg-card"card={{img:fifthImage, text:"Activate Facial Mask and Charcoal Soap", price:"$129.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:firstImage, text:"Kristina Dam Oak Table With White Marble Top", price:"$799.55"}}/>
+                            <ProductHover card={{img:firstImage, text:"Kristina Dam Oak Table With White Marble Top", price:"$799.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:secondImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55",}}/>
+                            <ProductHover card={{img:secondImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55",}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:thirdImage, text:"Activate Facial Mask and Charcoal Soap", price:"$129.55"}}/>
+                            <ProductHover card={{img:thirdImage, text:"Activate Facial Mask and Charcoal Soap", price:"$129.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:fourthImage, text:"Cocktail Table Walnut | Yes Or Not", price:"$299.99"}}/>
+                            <ProductHover card={{img:fourthImage, text:"Cocktail Table Walnut | Yes Or Not", price:"$299.99"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:fifthImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
+                            <ProductHover card={{img:fifthImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:sixthImage, text:"Tory Desk Calendar | Sure to Buy", price:"$410.99"}}/>
+                            <ProductHover card={{img:sixthImage, text:"Tory Desk Calendar | Sure to Buy", price:"$410.99"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile card={{img:seventhImage, text:"Ch445 Wing Chair on Suite Ny", price:"$330.55"}}/>
+                            <ProductHover card={{img:seventhImage, text:"Ch445 Wing Chair on Suite Ny", price:"$330.55"}}/>
                         </div>
                         <div className="col-md-6 col-lg-3 p-3">
-                            <ProductTile className="bg-card"card={{img:secondImage, text:"Activate Facial Mask and Charcoal Soap", price:"$129.55"}}/>
+                            <ProductHover card={{img:secondImage, text:"Activate Facial Mask and Charcoal Soap", price:"$129.55"}}/>
                         </div>
                     </div>
                 </div>
                 <div className="col d-flex justify-content-center align-self-center p-3">
-                    <button className="text-white bg-success border rounded-pill px-3 py-1">&nbsp;&nbsp;&nbsp;&nbsp; Load More &nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button className="btn text-white bg-success border rounded-pill px-3 py-1">
+                        &nbsp;&nbsp;&nbsp;&nbsp; Load More &nbsp;&nbsp;&nbsp;&nbsp;
+                    </button>
                 </div>
             </div>
         );

@@ -6,7 +6,7 @@ import Pinterest_Icon from '../../img/Social/Pinterest_Icon.png'
 import Twitter_Icon from '../../img/Social/Twitter_Icon.png'
 
 class Footer extends Component {
-    render() {
+    render() {  
         return (
             <div className="row pt-3 px-3 pad-from-bottom-nav">
                 {/* Lr and Xl layout - first three section*/}

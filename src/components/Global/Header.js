@@ -16,10 +16,8 @@ class Header extends Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <Link to="/homepage" className="">
-                    <a className="navbar-brand">
-                        <img className="logo-image" src={OSF_Logo}></img>
-                    </a>
+                <Link to="/homepage" className="d-lg-none d-xl-none">
+                    <img className="logo-image" src={OSF_Logo}></img>
                 </Link>
 
                 {/* Bottom fixed icons for Xs, Sm, Md screens */}
@@ -30,17 +28,17 @@ class Header extends Component {
                         </a>
                     </li> 
                     <li className="nav-item">
-                        <a className="nav-link ml-3" data-toggle="modal" data-target="#modalLoginForm">
+                        <a className="nav-link ml-3" data-toggle="modal" role="button" data-target="#modalLoginForm">
                             <img className="img-fluid icon-image icon-brightness" src={Profile_Icon}></img>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link ml-3">
+                        <a className="nav-link ml-3" role="button">
                             <img className="img-fluid icon-image icon-brightness" src={Wishlist_Icon}></img>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link ml-3">
+                        <a className="nav-link ml-3" role="button">
                             <img className="img-fluid icon-image icon-brightness" src={ShoppingCart_Icon}></img>
                         </a>
                     </li>
@@ -163,12 +161,16 @@ class Header extends Component {
                     </ul>
                     
                     {/* Meny for Lg, Xl screens */}
-                    <div className="navbar-collapse justify-content-between d-none d-sm-none d-md-none">
-                        <a className="navbar-brand small-fix">
-                            <a className="osf-text">OSF</a>
-                            <br></br>
-                            <a className="academy-text">Academy</a>
-                        </a>  
+                    <div className="navbar-collapse justify-content-between d-none d-lg-flex d-xl-flex">
+                        <Link to="/homepage" className="row align-items-center">
+                            <div className="col mr-n2">
+                                <img className="logo-image" src={OSF_Logo}></img>
+                            </div>
+                            <div className="col ml-n2">
+                                <p className="osf-text mb-1">OSF</p>
+                                <p className="academy-text">Academy</p>
+                            </div>
+                        </Link>
                         <ul className="navbar-nav">
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle text-dark text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -313,35 +315,31 @@ class Header extends Component {
                             <li className="nav-item disabled">
                                 <a className="nav-link text-dark text-uppercase">Contact Us</a>
                             </li>
-                            <li className="nav-item dropdown ml-4">
-                                <a className="nav-link dropdown-toggle text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    En
-                                </a>
+                            <li className="nav-item dropdown">
+                                <a className="nav-link text-dark dropdown-toggle text-uppercase" id="navbarDropdown" role="button">En</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    $Us
-                                </a>
+                                <a className="nav-link text-dark dropdown-toggle text-uppercase" id="navbarDropdown" role="button">$Us</a>
                             </li>
                         </ul>
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a className="nav-link ml-3">
+                            <li className="nav-item mr-3 ml-n3">
+                                <a className="nav-link" role="button">
                                     <img className="img-fluid icon-image" src={Search_Icon}></img>
                                 </a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link ml-3" data-toggle="modal" data-target="#modalLoginForm">
+                            <li className="nav-item mr-3">
+                                <a className="nav-link" data-toggle="modal" role="button" data-target="#modalLoginForm">
                                     <img className="img-fluid icon-image" src={Profile_Icon}></img>
                                 </a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link ml-3">
+                            <li className="nav-item mr-3">
+                                <a className="nav-link" role="button">
                                     <img className="img-fluid icon-image" src={Wishlist_Icon}></img>
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link ml-3">
+                                <a className="nav-link" role="button">
                                     <img className="img-fluid icon-image" src={ShoppingCart_Icon}></img>
                                 </a>
                             </li>
