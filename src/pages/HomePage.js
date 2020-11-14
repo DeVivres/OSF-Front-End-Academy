@@ -14,10 +14,10 @@ class HomePage extends Component {
         return (
             <div className="container">
                 <Header /> 
-                <LogInDialog />
                 <body>
-                <CarouselBanner />
                 <CookiesPolicy />
+                <LogInDialog />
+                <CarouselBanner />
                 <PopularItems />
                 <FullWidthImage />
                 <FeaturedProducts />

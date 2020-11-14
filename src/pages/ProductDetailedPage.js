@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Footer from '../components/Global/Footer';
 import Header from '../components/Global/Header';
 import BenefitsContent from '../components/Homepage/BenefitsContent';
+import CookiesPolicy from '../components/Non-Product/CookiesPolicy';
 import LogInDialog from '../components/Non-Product/LogInDialog';
 
 class ProductDetailedPage extends Component {
@@ -9,8 +10,9 @@ class ProductDetailedPage extends Component {
         return (
             <div className="container">
                 <Header /> 
-                <LogInDialog />
                 <body>
+                <CookiesPolicy />
+                <LogInDialog />
                 <BenefitsContent /> 
                 <Footer />
                 </body>
