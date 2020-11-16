@@ -13,11 +13,9 @@ class CategoryLandingPage extends Component {
                 <Header /> 
                 <CookiesPolicy />
                 <LogInDialog />
-                <body>
                 <CategoryLanding />
                 <FeaturedProducts />
                 <Footer />
-                </body>
             </div>
         );
     }

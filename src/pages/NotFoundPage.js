@@ -10,12 +10,10 @@ class NotFoundPage extends Component {
         return (
             <div className="container">
                 <Header /> 
-                <body>
                 <CookiesPolicy />
                 <LogInDialog />
                 <NotFound />
                 <Footer />
-                </body>
             </div>
         );
     }

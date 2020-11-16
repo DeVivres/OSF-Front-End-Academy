@@ -17,12 +17,11 @@ class CookiesPolicy extends Component {
     componentWillUnmount(){
         clearInterval(this.timer)
     }
+
     render() { 
         function acceptCookies(){
             localStorage.setItem("cookiesAccepted", true)
         }
-        
-
         return ( 
             <div className="modal fade" id="cookiesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-xl modal-dialog-centered p-3">

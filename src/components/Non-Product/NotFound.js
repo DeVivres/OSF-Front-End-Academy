@@ -3,6 +3,8 @@ import {Link} from "react-router-dom"
 import lineImage from '../../img/NotFound/Line_Img.png'
 import bgImage from '../../img/NotFound/Exclamation_Mark_Bg.png'
 import textImage from '../../img/NotFound/Oops_Text.png'
+import Breadcrumbs from '../../components/Landing/Breadcrumbs'
+
 
 
 class NotFound extends Component {
@@ -10,14 +12,7 @@ class NotFound extends Component {
         return (
             <div className="row bg-color-not-found d-block p-3 p-lg-5">
                 <div className="col pad-from-nav">
-                    <div className="col">
-                        <nav aria-label="breadcrumb" className="mb-n4">
-                            <ol class="breadcrumb bg-color-not-found justify-content-center align-items-center">
-                                <li className="breadcrumb-item"><Link  to="/homepage" className="text-success">Home</Link></li>
-                                <li class="breadcrumb-item active" aria-current="page">404</li>
-                            </ol>
-                        </nav>
-                    </div>
+                    <Breadcrumbs direction={{linkToPrevious:"/homepage", previousPage:"Home", currentPage:"404"}}/>
                     <div className="col d-flex justify-content-center align-items-center p-3">
                         <img className="w-25" src={lineImage}></img>
                         <h1 className="mx-3">404</h1>

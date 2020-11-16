@@ -14,7 +14,6 @@ class HomePage extends Component {
         return (
             <div className="container">
                 <Header /> 
-                <body>
                 <CookiesPolicy />
                 <LogInDialog />
                 <CarouselBanner />
@@ -23,7 +22,6 @@ class HomePage extends Component {
                 <FeaturedProducts />
                 <BenefitsContent /> 
                 <Footer />
-                </body> 
             </div>
         );
     }
