@@ -13,7 +13,7 @@ class FullWidthImage extends Component {
                 </div>
                 <div className="row banner align-items-center d-lg-none d-xl-none">
                     <div className="col-lg text-center text-white my-4 py-2">
-                        <h3>Banner OSF Theme</h3>
+                        <h2>Banner OSF Theme</h2>
                         <p>Sed ut perspiciatis unde omnis iste natus<br></br>error sit voluptatem accusantims</p>
                     </div>
                 </div>

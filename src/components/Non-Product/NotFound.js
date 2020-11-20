@@ -11,13 +11,8 @@ class NotFound extends Component {
     render() {
         return (
             <div className="row bg-color-not-found d-block p-3 p-lg-5">
-                <div className="col pad-from-nav">
-                    <Breadcrumbs direction={{linkToPrevious:"/homepage", previousPage:"Home", currentPage:"404"}}/>
-                    <div className="col d-flex justify-content-center align-items-center p-3">
-                        <img className="w-25" src={lineImage}></img>
-                        <h1 className="mx-3">404</h1>
-                        <img className="w-25" src={lineImage}></img>
-                    </div>
+                <div className="col">
+                    <Breadcrumbs direction={{linkToPrevious:"/homepage", previousPage:"Home", currentPage:"404", pageTitle:"404"}}/>
                 </div>
                 <div className="col bg-white d-lg-flex d-xl-flex p-3 p-lg-5">
                     <div className="col d-flex justify-content-center">

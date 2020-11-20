@@ -18,35 +18,19 @@ class PopularItems extends Component {
             <div className="row d-block bg-items p-3">
                 <div className="col d-flex justify-content-center align-items-center pt-4">
                     <img className="w-25" src={lineImage}></img>
-                    <h1 className="text-white mx-3 text-center">Popular Items</h1>
+                    <h2 className="text-white mx-3 text-center">Popular Items</h2>
                     <img className="w-25" src={lineImage}></img>
                 </div>
                 <div className="col p-0">
                     <div className="row p-3">
-                        <div className="col-md-6 col-lg-3 p-3">
-                            <ProductHover card={{img:firstImage, text:"Kristina Dam Oak Table Marble", price:"$799.55"}}/>
-                        </div>
-                        <div className="col-md-6 col-lg-3 p-3">
-                            <ProductBuy card={{img:secondImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
-                        </div>
-                        <div className="col-md-6 col-lg-3 p-3 d-none d-md-block">
-                            <ProductHover card={{img:thirdImage, text:"Activate Facial Mask and Charcoal", price:"$129.55"}}/>
-                        </div>
-                        <div className="col-md-6 col-lg-3 p-3 d-none d-md-block">
-                            <ProductHover card={{img:fourthImage, text:"Cocktail Table Walnut | Yes or No", price:"$299.99"}}/>
-                        </div>
-                        <div className="col-md-6 col-lg-3 p-3 d-none d-md-block">
-                            <ProductHover card={{img:fifthImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
-                        </div>
-                        <div className="col-md-6 col-lg-3 p-3 d-none d-md-block">
-                            <ProductHover card={{img:sixthImage, text:"Tory Desk Calendar | Sure to Buy", price:"$410.99"}}/>
-                        </div>
-                        <div className="col-md-6 col-lg-3 p-3 d-none d-md-block">
-                            <ProductHover card={{img:seventhImage, text:"Ch445 Wing Chair on Suite Ny", price:"$330.55"}}/>
-                        </div>
-                        <div className="col-md-6 col-lg-3 p-3 d-none d-md-block">
-                            <ProductBuy card={{img:firstImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"   }}/>
-                        </div>
+                        <ProductHover card={{img:firstImage, text:"Kristina Dam Oak Table Marble", price:"$799.55"}}/>
+                        <ProductBuy card={{img:secondImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
+                        <ProductHover card={{img:thirdImage, text:"Activate Facial Mask and Charcoal", price:"$129.55"}}/>
+                        <ProductHover card={{img:fourthImage, text:"Cocktail Table Walnut | Yes or No", price:"$299.99"}}/>
+                        <ProductHover card={{img:fifthImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
+                        <ProductHover card={{img:sixthImage, text:"Tory Desk Calendar | Sure to Buy", price:"$410.99"}}/>
+                        <ProductHover card={{img:seventhImage, text:"Ch445 Wing Chair on Suite Ny", price:"$330.55"}}/>
+                        <ProductBuy card={{img:firstImage, text:"Hay - About A Lounge Chair AAL 93", price:"$659.55"}}/>
                     </div>
                 </div>
                 <div className="col d-flex justify-content-center align-self-center pb-3">

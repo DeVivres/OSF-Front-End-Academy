@@ -5,7 +5,7 @@ class Filters extends Component {
         return (
             <div className="col bg-white p-3">
                 <form>
-                    <div class="form-row ">
+                    <div class="form-row">
                         <div class="form-group col-md">
                             <label for="inputState">Price</label>
                             <select id="inputState" class="form-control rounded-pill">

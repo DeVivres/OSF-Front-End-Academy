@@ -89,7 +89,7 @@ class FeaturedProducts extends Component {
                                             <img className="card-img-top" src={firstImage} alt="Product image"></img>
                                             <div className="card-body text-center">
                                                 <p className="card-text">Kristina Dam Oak Table With White Marble</p>
-                                                <p className="text-success">Awesome</p>
+                                                <p className="text-success">Marketing</p>
                                             </div>
                                         </div>                                   
                                     </div>
@@ -107,7 +107,7 @@ class FeaturedProducts extends Component {
                                             <img  className="card-img-top" src={thirdImage} alt="Product image"></img>
                                             <div className="card-body text-center">
                                                 <p className="card-text">Kristina Dam Oak Table With White Marble</p>
-                                                <p className="text-success">Awesome</p>
+                                                <p className="text-success">Marketing</p>
                                             </div>
                                         </div>
                                     </div>

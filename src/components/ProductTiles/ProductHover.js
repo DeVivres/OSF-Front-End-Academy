@@ -13,13 +13,15 @@ class ProductHover extends Component {
     }
     render() {
         return (
-            <div class="card text-center h-100">
-                <img class="card-img-top" src={this.props.card.img}></img>
-                <div class="card-body">
-                    <p class="card-text">{this.props.card.text}</p>
-                    <p className="text-success">{this.props.card.price}</p>
-                </div>
-            </div>
+            <div className="col-md-6 col-lg-3 p-3">
+               <div class="card text-center h-100">
+                    <img class="card-img-top" src={this.props.card.img}></img>
+                    <div class="card-body">
+                        <p class="card-text">{this.props.card.text}</p>
+                        <p className="text-success">{this.props.card.price}</p>
+                    </div>
+                </div> 
+            </div>            
         )      
     }
 }
